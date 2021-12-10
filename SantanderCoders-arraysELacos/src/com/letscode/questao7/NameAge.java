@@ -29,7 +29,7 @@ public class NameAge {
 
         Person temp;
         for(int i = 0; i < peopleNameAndAge.length; i++){
-            for(int j = 0; j > 0; j--){
+            for(int j = i; j > 0; j--){
                 if(peopleNameAndAge[j].age < peopleNameAndAge[j-1].age){
                     temp = peopleNameAndAge[j];
                     peopleNameAndAge[j] = peopleNameAndAge[j-1];

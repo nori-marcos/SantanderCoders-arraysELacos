@@ -8,7 +8,8 @@ public class ShoppingCart {
         Scanner scanFruits = new Scanner(System.in);
         System.out.println("Enter the name of 5 fruits separated by space: ");
 
-        String[] arrayOfFruits = new String[5];
+        String[] arrayOfFruits;
+        arrayOfFruits = new String[5];
         arrayOfFruits[0] = scanFruits.next();
         arrayOfFruits[1] = scanFruits.next();
         arrayOfFruits[2] = scanFruits.next();
